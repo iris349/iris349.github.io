@@ -16,6 +16,12 @@ header {
   position: sticky;
   top: 0;
 }
+nav a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+  transition: 0.3s ease;
+}
+
 
 nav a {
   margin-left: 15px;
