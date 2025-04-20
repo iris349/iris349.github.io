@@ -1,59 +1,66 @@
+/* 전체 페이지 스타일 */
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(135deg, #1e1e2f, #2e2e4f);
-  color: #fff;
-  margin: 0;
-  padding: 0;
+  font-family: 'Poppins', sans-serif; /* 글꼴 설정 */
+  background: linear-gradient(135deg, #1e1e2f, #2e2e4f); /* 배경 그라디언트 */
+  color: #fff; /* 기본 텍스트 색상 흰색 */
+  margin: 0; /* 바깥 여백 제거 */
+  padding: 0; /* 안쪽 여백 제거 */
 }
 
+/* 헤더 스타일 */
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: rgba(0,0,0,0.2);
-  backdrop-filter: blur(10px);
-  position: sticky;
-  top: 0;
+  display: flex; /* 가로 정렬 */
+  justify-content: space-between; /* 좌우 요소 간격 최대화 */
+  align-items: center; /* 수직 가운데 정렬 */
+  padding: 20px; /* 내부 여백 */
+  background-color: rgba(0,0,0,0.2); /* 반투명 배경 */
+  backdrop-filter: blur(10px); /* 배경 흐림 효과 */
+  position: sticky; /* 상단 고정 */
+  top: 0; /* 뷰포트 최상단에 위치 */
 }
+
+/* section 내부 a 태그 hover 시 효과 */
 section a:hover {
-  color: #ffcc00;
-  text-decoration: underline;
-  
+  color: #ffcc00; 
+  text-decoration: underline; 
 }
-
-
+/* 네비게이션 링크 스타일 */
 nav a {
-  margin-left: 15px;
-  color: #00ffd5;
-  text-decoration: none;
-  font-weight: 600;
+  margin-left: 15px; /* 링크 간 좌측 여백 */
+  color: #00ffd5; /* 형광 파란색 텍스트 */
+  text-decoration: none; /* 밑줄 제거 */
+  font-weight: 600; /* 텍스트 굵기 */
 }
 
+/* 히어로 섹션 (대표 이미지나 인삿말 영역) */
 #hero {
-  text-align: center;
-  padding: 60px 20px;
+  text-align: center; /* 중앙 정렬 */
+  padding: 60px 20px; /* 여백 */
 }
 
+/* 히어로 이미지 스타일 */
 #hero img {
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid #00ffd5;
+  border-radius: 50%; /* 원형 이미지 */
+  border: 3px solid #00ffd5; /* 외곽선 */
 }
 
+/* 공통 섹션 레이아웃 */
 section {
-  padding: 40px 20px;
-  max-width: 800px;
-  margin: 0 auto;
+  padding: 40px 20px; /* 내부 여백 */
+  max-width: 800px; /* 최대 너비 제한 */
+  margin: 0 auto; /* 수평 가운데 정렬 */
 }
 
+/* 제목 스타일 */
 h1, h2, h3 {
-  color: #00ffd5;
+  color: #00ffd5; /* 형광 파란색 */
 }
 
+/* 푸터 스타일 */
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #111;
+  text-align: center; /* 가운데 정렬 */
+  padding: 20px; /* 안쪽 여백 */
+  background-color: #111; 
 }
